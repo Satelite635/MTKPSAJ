@@ -74,7 +74,7 @@ function checkAnswer(correctAnswer, damage, cost) {
         enemyHp -= damage;
         document.getElementById('mathContainer').innerHTML = `<p>Benar! Musuh -${damage} HP</p>`;
         document.getElementById('playerGif').src = './MC_Sprites/Attack.png';
-        document.getElementById('enemyGif').src = 'Skeleton.png';
+        document.getElementById('enemyGif').src = 'hurtnghtborne.png';
 
         if (enemyHp <= 0) {
             enemyHp = 0;
